@@ -29103,6 +29103,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
+      propertyPath: enemyRanged.Path
+      value: event:/Enemy/EnemyRanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
       propertyPath: pressurePad.Path
       value: event:/Interactables/PressurePad
       objectReference: {fileID: 0}
@@ -29258,6 +29263,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
+      propertyPath: enemyRanged.Guid.Data1
+      value: -229019674
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: enemyRanged.Guid.Data2
+      value: 1135640540
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: enemyRanged.Guid.Data3
+      value: 1943040946
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: enemyRanged.Guid.Data4
+      value: 1151948921
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
       propertyPath: playerAttackMelee.Path
       value: event:/Avatar/AvatarMeleeAttack
       objectReference: {fileID: 0}
@@ -29280,6 +29305,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pressurePad.Guid.Data4
       value: -976756196
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerAttackRanged.Path
+      value: event:/Avatar/AvatarRangedAttack
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
@@ -29341,6 +29371,26 @@ PrefabInstance:
       propertyPath: playerAttackMelee.Guid.Data4
       value: -1698176900
       objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerAttackRanged.Guid.Data1
+      value: 1386372933
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerAttackRanged.Guid.Data2
+      value: 1129704919
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerAttackRanged.Guid.Data3
+      value: -375506029
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerAttackRanged.Guid.Data4
+      value: -297798823
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29367,7 +29417,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[1].tag
-      value: MusicMenu
+      value: Ambiance
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
