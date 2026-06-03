@@ -29093,6 +29093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
+      propertyPath: doorSwitch.Path
+      value: event:/Interactables/DoorSwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
       propertyPath: enemyDeath.Path
       value: event:/Enemy/EnemyDeath
       objectReference: {fileID: 0}
@@ -29240,6 +29245,26 @@ PrefabInstance:
         type: 3}
       propertyPath: acidSplash.Guid.Data4
       value: 2111939973
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: doorSwitch.Guid.Data1
+      value: -374581092
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: doorSwitch.Guid.Data2
+      value: 1146583257
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: doorSwitch.Guid.Data3
+      value: -624020864
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: doorSwitch.Guid.Data4
+      value: 1239710986
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
